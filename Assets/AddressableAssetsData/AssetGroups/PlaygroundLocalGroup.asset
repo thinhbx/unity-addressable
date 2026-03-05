@@ -15,6 +15,11 @@ MonoBehaviour:
   m_GroupName: PlaygroundLocalGroup
   m_GUID: fe44b9a740870f249b05305efb988343
   m_SerializeEntries:
+  - m_GUID: 408e9260b0c1b7942ade981d50f8339b
+    m_Address: Assets/StarterAssets/ThirdPersonController/Scenes/Env 02.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 43714b68324cc2c409d534d9874f2a2b
     m_Address: Assets/StarterAssets/ThirdPersonController/Character/Materials/M_Armature_Body.mat
     m_ReadOnly: 0
@@ -27,6 +32,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 64dce48905ffd9b4293e595fa6941544
     m_Address: Assets/StarterAssets/ThirdPersonController/Prefabs/PlayerArmature.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 71dca74b875f21241a284fc015711cb9
+    m_Address: Assets/StarterAssets/ThirdPersonController/Scenes/Env 01.unity
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

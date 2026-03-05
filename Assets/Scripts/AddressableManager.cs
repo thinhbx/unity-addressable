@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.AddressableAssets.ResourceLocators;
 using UnityEngine.ResourceManagement.AsyncOperations;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class AddressableManager : MonoBehaviour
@@ -16,6 +17,7 @@ public class AddressableManager : MonoBehaviour
     void Start()
     {
         Addressables.InitializeAsync().Completed += AddressableManager_Completed;
+
     }
 
     // Update is called once per frame
@@ -25,6 +27,7 @@ public class AddressableManager : MonoBehaviour
     }
     private void AddressableManager_Completed(AsyncOperationHandle<IResourceLocator> handle)
     {
+        LoadAddressableLevel("Assets/StarterAssets/ThirdPersonController/Scenes/Env 01.unity");
         playerPrefabAssetReference.InstantiateAsync().Completed += (go) =>
         {
             var player = go.Result; ;
@@ -41,4 +44,13 @@ public class AddressableManager : MonoBehaviour
             uwtLogo.texture = logoAssetReference.Asset as Texture2D;
         }
     }
+
+    public void LoadAddressableLevel(string addressableKey)
+    {
+        Addressables.LoadSceneAsync(addressableKey, LoadSceneMode.Additive).Completed += (asyncHandle) =>
+        {
+            Debug.Log("Load Scene Successfully!");
+        };
+    }
+
 }
