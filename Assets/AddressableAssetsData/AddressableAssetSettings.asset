@@ -15,9 +15,9 @@ MonoBehaviour:
   m_DefaultGroup: fe44b9a740870f249b05305efb988343
   m_currentHash:
     serializedVersion: 2
-    Hash: ce4f75bfaae5e647dcaea3c3b2d1197f
+    Hash: fc324d707268e8783a0f54e194648fdc
   m_OptimizeCatalogSize: 0
-  m_BuildRemoteCatalog: 0
+  m_BuildRemoteCatalog: 1
   m_CatalogRequestsTimeout: 0
   m_DisableCatalogUpdateOnStart: 0
   m_InternalIdNamingMode: 0
@@ -51,9 +51,9 @@ MonoBehaviour:
   m_CheckForContentUpdateRestrictionsOption: 0
   m_MonoScriptBundleCustomNaming: 
   m_RemoteCatalogBuildPath:
-    m_Id: 
+    m_Id: b7907b6383a812a4596851740a7240b6
   m_RemoteCatalogLoadPath:
-    m_Id: 
+    m_Id: e6866ffa8f099054d85dd29c94d9d223
   m_ContentStateBuildPathProfileVariableName: <default settings path>
   m_CustomContentStateBuildPath: 
   m_ContentStateBuildPath: 
@@ -77,7 +77,7 @@ MonoBehaviour:
       - m_Id: b7907b6383a812a4596851740a7240b6
         m_Value: 'ServerData/[BuildTarget]'
       - m_Id: e6866ffa8f099054d85dd29c94d9d223
-        m_Value: <undefined>
+        m_Value: 'https://thinhbx.github.io/unity-addressable/ServerData/[BuildTarget]'
       - m_Id: fb587928b7ecd064793b0822ff37d7f0
         m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
     m_ProfileEntryNames:
