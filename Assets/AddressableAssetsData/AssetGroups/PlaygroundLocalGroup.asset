@@ -33,7 +33,8 @@ MonoBehaviour:
   - m_GUID: 64dce48905ffd9b4293e595fa6941544
     m_Address: Assets/StarterAssets/ThirdPersonController/Prefabs/PlayerArmature.prefab
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Hero
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 71dca74b875f21241a284fc015711cb9
     m_Address: Assets/StarterAssets/ThirdPersonController/Scenes/Env 01.unity
